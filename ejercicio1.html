@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <font  face ="arial black"   size="16" color="red"><center><h1>EJERCICIO SERIES DE FIBONACCI</h1></center></font>
+    <script src="ejer1.js"></script>
+    <link rel="stylesheet" href="ejer1.css">
+</head>
+<body>
+   <h1><center>SERIE DE FIBONACCI</center></h1>
+   <label>proporciona un numero:</label>
+   <input type="text" onchange="sucesionFibonacci(this);"/>
+   <br>
+   <div id="resultado" style="color:red"></div>
+   <select name="" id="idselec" >
+    <option value="1">FIBONACI</option>
+    <option value="2">PRIMOS</option>
+</select><br><br>
+   <input type="submit" value="CALCULAR" onclick="sucesionFibonacci(entrada);">
+   <div id="resultado"></div>
+
+   <hr>
+
+   <h2><center>NUMEROS PRIMOS</center></h2>
+   <label>proporciona un numero:</label>
+   <input type="text" onchange="primos(this);"/>
+   <br>
+   <div id="resultados" style="color:blueviolet"></div>
+   <input type="submit" value="CALCULAR" onclick ="primos(valor,divCont);">
+   <div id="resultados"></div>
+
+   <hr>
+
+</body>
+</html>

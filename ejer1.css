@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(218, 250, 102);
+}
+.seleccion{
+    text-align: center;
+    background-color: rgb(76,28,234);
+    padding: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px crimson;
+
+}
+.seleccion:hover{
+
+    background-color: rgb(104, 87, 99);
+  
+    box-shadow: 0 0 40px rgb(14, 199, 35);
+
+}
